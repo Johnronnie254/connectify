@@ -1,0 +1,17 @@
+.containerstyle {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/540f5515e4b06c4e8629c108/1660211155167-PMO9DIJDXC6P1WVCVH4T/How+To+Choose+The+Right+IT+Service+Banner+Image.png?format=2500wss");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-align: center;
+}
+.containerstyle p {
+  margin-bottom: 200px;
+  font-size: 17px;
+  font-weight: bold;
+}
