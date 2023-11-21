@@ -6,7 +6,7 @@ const LandingPage = () => {
   const navigate = useNavigate();
 
   function handlePage() {
-    navigate("/services"); // Navigate to the Services page
+    navigate("Services"); // Navigate to the Services page
   }
 
   return (
