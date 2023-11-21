@@ -1,14 +1,14 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./Landingpage.css";
-import Services from "./Services";
 
 const LandingPage = () => {
-  const navigate = useNavigate(); // Use useHistory instead of History
+  const navigate = useNavigate();
+
   function handlePage() {
-    // Renaming the function to follow camelCase convention
-    navigate("/Services");
+    navigate("/services"); // Navigate to the Services page
   }
+
   return (
     <div className="containerstyle">
       <h1>Welcome to Connect</h1>
